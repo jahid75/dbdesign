@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table for User Information</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar nav-custom">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">DB Design</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Login</a></li>
+		        <li><a href="#">Register</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<div class="container">
+			<div class="col-md-offset-3 col-md-6">
+				<div class="my-form-cont">
+					<div class="title-cont">
+						<h3>Database Design Form</h3>
+						<h2>User Information</h2>
+					</div>
+					<div class="main-form-cont">
+						<input class="inptbx plani" type="text" placeholder="Enter User Full Name">
+						<input class="inptbx plani" type="text" placeholder="Enter a Valid Email">
+						<input class="inptbx plani" type="text" placeholder="Enter Mobile Number">
+						<input class="inptbx plani" type="text" placeholder="Enter Office Email">
+						<div class="select-cont">
+							<select name="office-location" id="slctusr-loc" class="inptslct">
+								<option value="">Select Location</option>
+								<option value="1">Sherpur</option>
+								<option value="2">Dhunat</option>
+								<option value="3">Nandigram</option>
+								<option value="4">Shajahanpur</option>
+								<option value="5">Kahalu</option>
+								<option value="6">Shibgonj</option>
+							</select>
+						</div>
+						<div class="select-cont">
+							<select name="user-type" id="slctusr-type" class="inptslct">
+								<option value="">Select User Type</option>
+								<option value="1">Administrator</option>
+								<option value="2">Editor</option>
+								<option value="2">Subscriber</option>
+								<option value="2">General User</option>
+							</select>
+						</div>
+						<div class="select-cont">
+							<select name="user-status" id="slctusr-status" class="inptslct">
+								<option value="">Select User Status</option>
+								<option value="1">Active</option>
+								<option value="2">Inactive</option>
+							</select>
+						</div>
+						<input id="inptbtn" class="inptbtn" type="submit" value="Submit">
+					</div>
+
+				</div> <!-- .my-form-cont -->
+			</div>
+
+		</div>
+	</div> <!-- .wrapper -->
+<script src="assets/js/bootstrap.min.js"></script>	
+</body>
+</html>

@@ -1,0 +1,115 @@
+.nav-custom {
+  background: #73bc00 none repeat scroll 0 0;
+  box-shadow: 0 0 4px -1px;
+}
+.nav-custom a {
+  color: #fff;
+}
+.nav-custom .nav .open > a, .nav-custom .nav .open > a:focus, .nav-custom .nav .open > a:hover {
+  background-color: #57a000;
+  border-color: #337ab7;
+}
+.nav-custom .nav > li > a:focus, .nav-custom .nav > li > a:hover {
+  background-color: #57a000;
+}
+.nav-custom .icon-bar {
+  background: #fff none repeat scroll 0 0;
+}
+.my-form-cont {
+  background: none repeat scroll 0 0 #efefef;
+  border: 2px solid #73bc00;
+  max-width: 600px;
+  min-height: 300px;
+  padding: 15px;
+  width: 100%;
+  margin-top: 10%;
+}
+.title-cont {
+  text-align: center;
+}
+.title-cont h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.title-cont h2 {
+  font-size: 28px;
+  margin: 10px 0 20px;
+  text-transform: uppercase;
+}
+.main-form-cont {
+  margin: 50px auto 20px;
+  max-width: 400px;
+}
+.main-form-cont input {
+  display: block;
+  width: 100%;
+}
+.inptbx {
+  background: none repeat scroll 0 0 transparent;
+  border: 2px solid #73bc00;
+  font-size: 16px;
+  font-style: italic;
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+.inptbtn {
+  background: none repeat scroll 0 0 #73bc00;
+  border: 0 none;
+  color: #fff;
+  font-size: 16px;
+  height: 45px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+.inptbtn:hover{
+	opacity: 0.8;
+}
+.inptslct {
+  appearance:none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #73bc00;
+  color: #999;
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 100%;
+}
+.select-cont, .dtpicker-cont {
+  position: relative;
+}
+.select-cont::after {
+  background: #73bc00 none repeat scroll 0 0;
+  color: #fff;
+  content: "";
+  font-family: fontawesome;
+  font-size: 22px;
+  height: 100%;
+  line-height: 45px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 20px;
+  z-index: 0;
+}
+.dtpicker-cont::after {
+  color: #73bc00;
+  content: "";
+  font-family: fontawesome;
+  font-size: 18px;
+  line-height: 45px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 30px;
+}
